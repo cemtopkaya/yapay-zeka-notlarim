@@ -118,9 +118,18 @@ Her biri farklı şekilde prompt edilmesi gerekenlerdir.
 
 **Genel dil modelleri**, eğitim verilerindeki dile dayanarak bir sonraki kelimeyi tahmin eder. Bu, genel bir dil modeli örneğidir. Bir sonraki kelime, eğitim verilerindeki dile dayalı olarak bir simgedir. Bu örnekte, kedi oturdu, bir sonraki kelime "the" (ve) olmalıdır ve "the" en olası bir sonraki kelimedir. Bu türü arama otomatik tamamlama gibi düşünün. 
 
+![image](https://github.com/user-attachments/assets/e8c0ba3e-65b4-4538-a538-7f5215af0e12)
+
 **Talimat ayarlı model**de, model girdi olarak verilen talimatlara yanıt tahmin etmek üzere eğitilmiştir. Örneğin, x metnini özetle, x tarzında bir şiir oluştur, x için anlamsal benzerlik temelli anahtar kelimeler listesi ver. Bu örnekte, metni nötr, olumsuz veya olumlu olarak sınıflandırın. 
 
+![image](https://github.com/user-attachments/assets/639223db-afbe-4bd6-a6af-068a0f40eba0)
+
+![image](https://github.com/user-attachments/assets/9c57a08c-74e0-4d3d-9e54-3ce3174062ff)
+
+
 **Diyalog ayarlı model**de, model bir sonraki yanıtı tahmin ederek bir diyalog kurmak üzere eğitilmiştir. Diyalog ayarlı modeller, talimat ayarlının özel bir türüdür ve istekler tipik olarak bir sohbet botuna sorular olarak çerçevelenir. Diyalog ayarlama, genellikle daha uzun bir ileri-geri konuşma bağlamında beklenir ve tipik olarak doğal soru benzeri ifadelerle daha iyi çalışır. 
+
+![image](https://github.com/user-attachments/assets/f4ff5f82-018f-4911-93fe-c40e6f399249)
 
 Düşünce zinciri akıl yürütme, modellerin doğru cevabı daha iyi elde ettiklerini gözlemleme sürecidir. 
 Soruyu ele alalım: 
@@ -128,6 +137,9 @@ Soruyu ele alalım:
   Bu soru başlangıçta hiçbir yanıt verilmeden sorulmuştur. Modelin doğru cevabı doğrudan elde etme olasılığı daha düşüktür. Ancak, ikinci soru sorulduğunda, çıktı doğru cevapla sonuçlanma olasılığı daha yüksektir.
 
 ### Görev spesifik ayar
+
+![image](https://github.com/user-attachments/assets/331551c0-b6f4-4208-8dd7-1b830e2e748f)
+
 Her şeyi yapabilen bir modelin pratik sınırlamaları vardır. **Görev spesifik ayar**, LLM'leri daha güvenilir hale getirebilir. `Vertex AI`, görev spesifik temel modeller sağlar. 
 
 Diyelim ki, müşterilerinizin ürün veya hizmetiniz hakkındaki duygularını toplamanız gereken bir kullanım durumunuz var. Sınıflandırma görevi **duygu analizi görev modeli**ni kullanabilirsiniz. İşgal analitiği yapmanız gereken aynı hüküm görevlerinde, kullanım durumunuz için görev spesifik bir model vardır. Bir modeli ayarlamak, modeli yerine getirmek istediğiniz görevin örneklerine dayalı olarak yanıtını özelleştirmenizi sağlar. Bu, modeli yeni bir alan veya özel kullanım durumları kümesine uyarlama sürecidir. 
