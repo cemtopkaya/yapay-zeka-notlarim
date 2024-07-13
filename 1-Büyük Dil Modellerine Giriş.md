@@ -89,6 +89,8 @@ Geleneksel programlamadan sinir ağlarına ve üretici modellere kadar uzun bir 
 ### Önceden eğitilmiş modeller kullanarak LLM geliştirmeyi geleneksel ML geliştirme ile karşılaştıralım. 
 Öncelikle LLM geliştirmede, bir uzman olmanıza gerek yoktur. Eğitim örneklerine ihtiyacınız yoktur ve bir model eğitmeye gerek yoktur. Yapmanız gereken tek şey, açık, öz ve bilgilendirici bir prompt oluşturmak olan **prompt tasarımı** hakkında düşünmektir. Bu, doğal dil işleme için önemli bir parçadır. 
 
+![image](https://github.com/user-attachments/assets/24628eac-3f66-43fb-af31-9faae46b7740)
+
 Geleneksel makine öğreniminde, bir modeli eğitmek için eğitim örneklerine ihtiyacınız vardır. Ayrıca hesaplama süresi ve donanım gereklidir. Bir metin oluşturma kullanım durumu örneğine bakalım. Soru yanıtlama veya QA, doğal dil işleme alt alanıdır ve doğal dilde sorulan soruları otomatik olarak yanıtlamayı içerir. QA sistemleri genellikle büyük miktarda metin ve kod üzerinde eğitilir ve gerçekler, tanımlamalar ve görüşlere dayalı sorular dahil olmak üzere geniş bir yelpazede soruları yanıtlayabilir. Buradaki anahtar, bu soru yanıtlama modellerini geliştirmek için alan bilgisine ihtiyaç duyulmasıdır. Örneğin, müşteri BT desteği, sağlık hizmetleri veya tedarik zinciri için bir soru yanıtlama modeli geliştirmek alan bilgisi gerektirir. Generative QA kullanırken, model doğrudan bağlama dayalı olarak serbest metin üretir. Alan bilgisine ihtiyaç yoktur. Google AI tarafından geliştirilen büyük dil modeli sohbet botu Bard'a sorulan üç soruya bakalım.
 
 Örnek: Bard adlı Google AI sohbet botuna şu soruları soralım:
