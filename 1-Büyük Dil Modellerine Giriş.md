@@ -19,6 +19,13 @@
 
 
 ### _Önceden eğitilmiş ve ince ayar yapılmış ne anlama geliyor?_
+
+- **Base Model:** GPT3 gibi modeller tamamlayıcıdır tıpkı Google'da sorunuzu yazarken tamamlayıcı özelliği ile benzer soruları çıkarması gibidir.
+- **Fine-tuned Model:** Belirli bir iş için modelin parametrelerinin ayarlandığı, eğitilmiş modeldir. 
+
+![image](https://github.com/user-attachments/assets/418643c8-0c50-47e1-915c-64d7ae01a9e9)
+
+
 Bir köpeği eğitmek gibi düşünün. Genellikle köpeğinize 
 - otur,
 - gel,
