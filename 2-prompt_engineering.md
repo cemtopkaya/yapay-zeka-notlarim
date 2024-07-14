@@ -24,21 +24,32 @@ Promptları ayarlayarak, modelin davranışını ince ayarlar ve mükemmel sesi 
 * Daha karmaşık bir prompt olan **talimat promptu** ise, "Bu makale özetini düzeltin, daha eğlenceli hale getirin, APA stil kılavuzuna uygun olmasını sağlayın ve teknik bir okuyucuya yönelik olsun, çıktınızı markdown formatında döndürün" kadar detaylı olabilir ve özetlenecek metni de içerebilir.
 
 Promptlar genellikle birkaç öğe içerir ve tüm öğeler gerekli değildir. 
-- BAĞLAM
+- **BAĞLAM**
+
   İlk olarak, modelin görevi veya istenen çıktıyı anlamasına yardımcı olan bağlamınız vardır. Bağlam, modelin daha iyi yanıtlar vermesini sağlar.
-- GİRDİ
+- **GİRDİ**
+
   Girdi verileriniz, modelin işlemesini istediğiniz gerçek veridir.
-- TALİMAT
+- **TALİMAT**
+
   Ardından, modelden ne yapmasını istediğinizi metinsel olarak tanımlayan talimatlar
-- ÖRNEKLER
+- **ÖRNEKLER**
+
   modelin doğru davranışını gösteren örnekler
-- KISITLAR
+- **KISITLAR**
+
   ve belirli gereksinimlere dayalı olarak modelin çıktısını kısıtlayan kısıtlamalar vardır.
 
 İşte bir örnek prompt:
+
+![image](https://github.com/user-attachments/assets/68de781e-df10-4abb-82eb-466329c3e598)
+
   * İlk olarak, **bağlam** var: "Kullanıcı tercihleri temelinde kişiselleştirilmiş kitap önerileri oluşturan bir yapay zeka asistanısınız."
   * Sonra **girdi** verisi var: "Bir kullanıcı profili."
   * Sonra **talimat**: "Bu kullanıcı için beş kitap önerebilir misiniz?"
+
+![image](https://github.com/user-attachments/assets/464e7e51-5193-4ca3-a4a4-4991c31501ba)
+
   * Ayrıca **örnekler** de ekleyebilirsiniz, yani örnek girdi ve örnek çıktı, ve kısıtlamalar ekleyebilirsiniz.
     Örneğin, "Oluşturulan önerilerin kullanıcının tercih ettiği türler içinde olmasını ve favori yazarlarıyla uyumlu olmasını sağlayın.
     Örneklerdeki kitapları önermeyin ve yanıtlarınızda dostça ve ilgi çekici bir ton koruyun."
