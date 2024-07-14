@@ -25,6 +25,8 @@
 
 ![image](https://github.com/user-attachments/assets/418643c8-0c50-47e1-915c-64d7ae01a9e9)
 
+[![image](https://github.com/user-attachments/assets/17c097af-3c7f-4688-acba-3421526fbc17)]([https://www.youtube.com/watch?v=eC6Hd1hFvos&ab_channel=ShawTalebi](https://youtu.be/eC6Hd1hFvos?si=aWELVQur0P7lANMg&t=265))
+
 
 Bir köpeği eğitmek gibi düşünün. Genellikle köpeğinize 
 - otur,
